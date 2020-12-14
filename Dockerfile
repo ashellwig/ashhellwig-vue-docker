@@ -6,6 +6,6 @@ COPY ./ .
 RUN npm run build
 
 FROM nginx AS production-stage
-RUN mkdir /app
-COPY --from=build-stage /app/dist /app
+RUN mkdir /site
+COPY --from=build-stage /site/dist /app
 COPY nginx.conf /etc/nginx/nginx.conf
