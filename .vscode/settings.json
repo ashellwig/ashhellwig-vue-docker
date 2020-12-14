@@ -1,0 +1,47 @@
+{
+    /* Programming Language Configuration */
+    // Javascript
+    "javascript.format.enable": false,
+    "javascript.validate.enable": false,
+    "eslint.format.enable": false,
+    "eslint.validate": [],
+    // HTML
+    "html.format.enable": false,
+    // Typescript
+    "typescript.format.enable": true,
+    "typescript.surveys.enabled": false,
+    "typescript.suggest.enabled": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "typescript.validate.enable": true,
+    "tslint.packageManager": "npm",
+    /* General Editor */
+    // Terminal
+    "terminal.integrated.env.windows": {
+        "PYTHON": "C:\\ProgramData\\Anaconda3\\python.exe"
+    },
+    // Files
+    "files.associations": {
+        "*.js": "javascript",
+        "*.html": "html"
+    },
+    // Spell Checker
+    "cSpell.enabledLanguageIds": [
+        "css",
+        "git-commit",
+        "graphql",
+        "handlebars",
+        "html",
+        "jade",
+        "javascript",
+        "latex",
+        "less",
+        "markdown",
+        "plaintext",
+        "python",
+        "pug",
+        "restructuredtext",
+        "typescript",
+        "yaml",
+        "yml"
+    ]
+}
